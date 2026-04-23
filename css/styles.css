@@ -1,0 +1,98 @@
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #0D0D0D;
+}
+
+/* NAV */
+nav {
+    text-align: center;
+    background: #1a1a1a;
+    padding: 10px;
+}
+
+nav a {
+    color: #F2F2F2;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #52A5D9; /* azul */
+}
+
+/* PORTADA */
+#inicio h2 {
+    margin: 10px 0;
+    color: #52A5D9; /* azul */
+}
+
+/* TABLAS */
+table {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #F2F2F2;
+    color: #0D0D0D;
+}
+
+th {
+    background: #52A5D9;
+    color: #F2F2F2;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* HORARIOS */
+section table {
+    background: #1a1a1a;
+    color: #F2F2F2;
+}
+
+/* BOTÓN */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #F2CF1D; /* amarillo */
+    color: #0D0D0D;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #F2BD1D; /* amarillo oscuro */
+}
+
+/* FOOTER */
+footer {
+    background: #0D0D0D;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #F2CF1D;
+}
+
+footer a:hover {
+    color: #52A5D9;
+}
+
+/* SEPARADORES */
+hr {
+    border: 1px solid #333;
+}
